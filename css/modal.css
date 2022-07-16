@@ -28,10 +28,11 @@ body.showModal .modal {
 
 .modalContent__closeButton {
     position: absolute;
-    color: #ffffff;
+    color: #da1d48;
     top: 20px;
     right: 20px;
     padding: 10px;
+    
 }
 
 .modalBackground {
