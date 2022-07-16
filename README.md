@@ -1,3 +1,3 @@
 # abdullahcev2
 
-https://cev2.github.io/abdullahcev2/
+https://abdullahcev2.github.io
