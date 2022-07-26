@@ -1,93 +1,106 @@
-
-header{
+header {
   position: relative;
-    max-width: 372px;
-    margin: auto;
-    padding: 1.83em 4.17em;
-  }
-  
-  
-  .profile{
+  max-width: 372px;
+  margin: auto;
+  padding: 1.83em 4.17em;
+}
+
+
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile img {
+  width: 65%;
+  margin: auto;
+  margin-bottom: 1em;
+  border-radius: 1.5em;
+}
+
+span.name {
+  font-size: 300%;
+  color: #e7e6e8;
+}
+
+span.city {
+  color: #e7e6e8;
+  font-size: 170%;
+}
+
+.account {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.account-box {
+  padding: 1em 0;
+  background: #1c1726;
+  border-radius: .88em;
+  display: flex;
+  flex-direction: column;
+  width: 33.3333%;
+  margin: .5em;
+}
+
+.statistic-num {
+  font-size: 170%;
+  color: #da1d48;
+}
+
+.statistic-des {
+  font-size: 170%;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 700px) {
+  .profile {
     position: relative;
     display: flex;
     flex-direction: column;
   }
-  .profile img{
-    width: 65%;
+
+  .profile img {
+    width: 50%;
     margin: auto;
     margin-bottom: 1em;
     border-radius: 1.5em;
   }
-  span.name{
-    font-size: 300%;
+
+  span.name {
+    font-size: 200%;
     color: #e7e6e8;
   }
-  span.city{
+
+  span.city {
     color: #e7e6e8;
-    font-size: 170%;
+    font-size: 130%;
   }
-  .account{
+
+  .account {
     margin-top: 1.5em;
     display: flex;
     flex-direction: row;
+    font-size: 80%;
   }
-  .account-box{
-    padding: 1em 0 ;
+
+  .account-box {
+    padding: 10px;
     background: #1c1726;
-    border-radius: .88em;
     display: flex;
-    flex-direction: column;
-    width: 33.3333%;
-    margin: .5em;
+    width: 30%;
   }
-  .statistic-num{
+
+  .statistic-num {
     font-size: 170%;
     color: #da1d48;
   }
-  .statistic-des{
+
+  .statistic-des {
     font-size: 170%;
     color: #ffffff;
   }
-  
-  @media screen and (max-width: 700px){
-    .profile{
-      position: relative;
-      display: flex;
-      flex-direction: column;
-    }
-    .profile img{
-      width: 50%;
-      margin: auto;
-      margin-bottom: 1em;
-      border-radius: 1.5em;
-    }
-    span.name{
-      font-size: 200%;
-      color: #e7e6e8;
-    }
-    span.city{
-      color: #e7e6e8;
-      font-size: 130%;
-    }
-    .account{
-      margin-top: 1.5em;
-      display: flex;
-      flex-direction: row;
-      font-size: 80%;
-    }
-    .account-box{
-      padding: 10px;
-      background: #1c1726;
-      display: flex;
-      width: 30%;
-    }
-    .statistic-num{
-      font-size: 170%;
-      color: #da1d48;
-    }
-    .statistic-des{
-      font-size: 170%;
-      color: #ffffff;
-    }
-  }
-    
+}
